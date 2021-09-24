@@ -1,0 +1,67 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px 12px 12px 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+li {
+    float: left;
+}
+
+.Navbar {
+    background-color: #2d81c5;
+    margin-bottom: 10px;
+}
+
+.Navbar .store {
+    font-size: 40px;
+    font-weight: 1000;
+    color: #131312;
+}
+
+.store:hover{
+    background-color: #eedf09;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+  }
+
+li a {
+    display: block;
+    color: #d9d6e0;
+    font-size: large;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+/* Get user btn */
+
+.button {
+    border: none;
+    color: rgb(163, 27, 90);
+    padding: 14px 26px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: #fafafa ;
+    color: rgb(12, 12, 12);
+    font-size: 25px;
+    float: right;
+    border: 1px solid #ffc107;
+    
+  }
+  
+  .button1:hover{
+    background-color: #f1ee06;
+    color: rgb(12, 12, 12);
+    cursor: pointer;
+  }
+  
